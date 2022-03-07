@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52F1EA727D5A65000CF5EA4 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F1EA627D5A65000CF5EA4 /* Styles.swift */; };
 		F558DE0C27D4FC5A0081DA20 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE0B27D4FC5A0081DA20 /* AppStoreApp.swift */; };
 		F558DE0E27D4FC5A0081DA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE0D27D4FC5A0081DA20 /* ContentView.swift */; };
 		F558DE1027D4FC5B0081DA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F558DE0F27D4FC5B0081DA20 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		F558DE1D27D4FC5B0081DA20 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE1C27D4FC5B0081DA20 /* AppStoreTests.swift */; };
 		F558DE2727D4FC5B0081DA20 /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE2627D4FC5B0081DA20 /* AppStoreUITests.swift */; };
 		F558DE2927D4FC5B0081DA20 /* AppStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE2827D4FC5B0081DA20 /* AppStoreUITestsLaunchTests.swift */; };
+		F558DE3627D4FCBA0081DA20 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE3527D4FCBA0081DA20 /* TodayView.swift */; };
+		F558DE3827D50BE20081DA20 /* AppCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558DE3727D50BE20081DA20 /* AppCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F558DE0827D4FC5A0081DA20 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52F1EA627D5A65000CF5EA4 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		F558DE0827D4FC5A0081DA20 /* MyAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F558DE0B27D4FC5A0081DA20 /* AppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreApp.swift; sourceTree = "<group>"; };
 		F558DE0D27D4FC5A0081DA20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F558DE0F27D4FC5B0081DA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		F558DE2227D4FC5B0081DA20 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F558DE2627D4FC5B0081DA20 /* AppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITests.swift; sourceTree = "<group>"; };
 		F558DE2827D4FC5B0081DA20 /* AppStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F558DE3527D4FCBA0081DA20 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		F558DE3727D50BE20081DA20 /* AppCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,7 @@
 		F558DE0927D4FC5A0081DA20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F558DE0827D4FC5A0081DA20 /* AppStore.app */,
+				F558DE0827D4FC5A0081DA20 /* MyAppStore.app */,
 				F558DE1827D4FC5B0081DA20 /* AppStoreTests.xctest */,
 				F558DE2227D4FC5B0081DA20 /* AppStoreUITests.xctest */,
 			);
@@ -98,6 +104,9 @@
 				F558DE0D27D4FC5A0081DA20 /* ContentView.swift */,
 				F558DE0F27D4FC5B0081DA20 /* Assets.xcassets */,
 				F558DE1127D4FC5B0081DA20 /* Preview Content */,
+				F558DE3527D4FCBA0081DA20 /* TodayView.swift */,
+				F558DE3727D50BE20081DA20 /* AppCardView.swift */,
+				F52F1EA627D5A65000CF5EA4 /* Styles.swift */,
 			);
 			path = AppStore;
 			sourceTree = "<group>";
@@ -144,7 +153,7 @@
 			);
 			name = AppStore;
 			productName = AppStore;
-			productReference = F558DE0827D4FC5A0081DA20 /* AppStore.app */;
+			productReference = F558DE0827D4FC5A0081DA20 /* MyAppStore.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F558DE1727D4FC5B0081DA20 /* AppStoreTests */ = {
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F558DE0E27D4FC5A0081DA20 /* ContentView.swift in Sources */,
+				F52F1EA727D5A65000CF5EA4 /* Styles.swift in Sources */,
+				F558DE3627D4FCBA0081DA20 /* TodayView.swift in Sources */,
+				F558DE3827D50BE20081DA20 /* AppCardView.swift in Sources */,
 				F558DE0C27D4FC5A0081DA20 /* AppStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +444,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.duoweibiaoge.MyAppStore;
+				PRODUCT_NAME = MyAppStore;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,8 +473,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppStore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.duoweibiaoge.MyAppStore;
+				PRODUCT_NAME = MyAppStore;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
