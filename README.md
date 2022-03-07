@@ -53,7 +53,7 @@
 ```Swift
 .background(RoundedRectangle(cornerRadius: 20).fill(Color.white))
 ```
-2. 设置白色背景，剪切图形成圆角```
+2. 设置白色背景，剪切图形成圆角
 ```swift
 .background(Color.white)
 .cornerRadius(20)
